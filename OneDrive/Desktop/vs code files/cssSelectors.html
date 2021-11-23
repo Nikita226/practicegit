@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+         /* id selector */
+        #firstpara{
+             color:rebeccapurple;
+             background-color: sandybrown;
+        }
+        /* class selector */
+        .paragraph2{
+            color: blueviolet;
+            background-color:chartreuse;
+        }
+        /* element selector */
+        p{
+            color:cyan;
+        }
+
+        /* goruping selector */
+        footer,span,em{
+            border-bottom: darkgreen;
+            background-color: darksalmon;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h3>CSS SELECTORS</h3>
+    <!-- there are 4 types of selectors:
+        1)id selector
+        2)element seletor
+        3)class selector
+        4)css grouping selector-->
+
+    <p id="firstpara">This is a simple paragraph</p>
+    <p id="secondPara" class="paragraph2">this is another paragraph which demonstrates the css selectors</p>
+    <p>this is the third paragraph</p>
+    <div>
+        <p>this paragraph is present inside the div tag</p>
+    </div>
+    <span>this is span</span>
+    <em>this is em tag</em>
+    <footer>this is footer</footer>
+
+
+</body>
+</html>

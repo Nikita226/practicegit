@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <!-- <link href="https://fonts.google.com/specimen/Dancing+Script" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://fonts.google.com/specimen/Ubuntu+Condensed?query=ubu"> -->
+    <style>
+        *{
+
+        }
+        body{
+        font-family:sans-serif;
+        }
+      .container{
+          border:rgb(196, 4, 84) 3px solid;
+          width: 800px;
+          padding: 8px;
+          margin:auto;
+      }
+      /* margin auto is used to align anything at center */
+      .item{
+          border:rgb(46, 4, 46) solid 4px ;
+          margin:12px 4px;
+          padding:6px;
+          background-color:rgb(240, 191, 240) ;
+      }
+      #fruits{
+          float:left;
+          width:50%;
+      }
+      #computer{
+          float:right;
+          width:50%;
+      }
+      #stationary{
+          float:none;
+          clear:both;
+      }
+      p,h3{
+          text-align:center;
+      }
+      h4{
+          color:blueviolet;
+          margin:auto;
+          width: 500px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h4>WELCOME TO THE SHOP</h4>
+        <div id="fruits" class="item">
+            <h3>FRUITS</h3>
+            <p id="friutspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, praesentium doloribus asperiores porro quod quidem beatae similique expedita atque veritatis dolorum sint vitae illo vel cumque totam. Nesciunt deserunt tenetur numquam laboriosam sint corrupti fuga modi praesentium perferendis.</p>
+        </div>
+        <img src="https://unsplash.com/photos/qSkWlOBHia0" alt="error in finnding image">
+        <div id="computer" class="item">
+            <h3>COMPUTER</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, praesentium doloribus asperiores porro quod quidem beatae similique expedita atque veritatis dolorum sint vitae illo vel cumque totam. Nesciunt deserunt tenetur numquam laboriosam sint corrupti fuga modi praesentium perferendis.</p>
+        </div>
+        
+        <div id="stationary" class="item">
+            <h3>STATIONARY</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, praesentium doloribus asperiores porro quod quidem beatae similique expedita atque veritatis dolorum sint vitae illo vel cumque totam. Nesciunt deserunt tenetur numquam laboriosam sint corrupti fuga modi praesentium perferendis.</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>GLASSES</h3>
+            <p id="glasspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, praesentium doloribus asperiores porro quod quidem beatae similique expedita atque veritatis dolorum sint vitae illo vel cumque totam. Nesciunt deserunt tenetur numquam laboriosam sint corrupti fuga modi praesentium perferendis.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>HTML FORMS</h2>
+    <forms action="backend.php">
+        <div><!--block element ,used instead of br tag-->
+            Name: <input type="text" name="myName"><!--input is inline tag-->
+        </div>
+        <br><!--here this task is done by css and br tag is not recommended-->
+        <div>
+            Roll no.: <input type="number" name="myNumber">
+        </div>
+        <br><!--here this task is done by css and br tag is not recommended-->
+        <div>
+            Email: <input type="emial" name="myEmail">
+        </div>
+        <br>
+        <div>
+            date: <input type="date" name="date of birth" >
+        </div>
+        <br>
+        <div>
+            your eligibility: <input type="checkbox" name="myeligibility" >
+        </div>
+        <br>
+        <div>
+            gender: Male <input type="radio" name="my gender" > gender: Female <input type="radio" name="my gender" >
+        </div>
+        <br>
+        <div>
+            write about yourself:<br> <textarea name="mytext" cols="15" rows="15"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="reset">
+        </div>
+
+    </forms>
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in javascript</title>
+</head>
+<style>
+    #btn{
+        color:rgb(14, 14, 49);
+        background-color: rgb(188, 188, 235);
+        border:1px solid rgb(14, 14, 49);
+        border-radius:8px;
+    }
+    #btn:hover{
+        background-color: rgb(138, 138, 236);
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Heading</h1>
+        <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed deserunt, quia ea aperiam tempora temporibus ipsam, est non expedita voluptate quos in? Blanditiis, et cumque, in porro accusantium doloremque error dolorum quaerat tempore mollitia quisquam suscipit, quibusdam ea excepturi necessitatibus tempora! Labore itaque autem magni?</p>
+    </div>
+    <button id="btn" onclick="togglehide()">show/hide</button>
+    <script>
+        function togglehide() {
+        let btn=document.getElementById('btn'); 
+        let para=document.getElementById('para');
+
+        if(para.style.display != 'none'){
+           para.style.display='none';
+        }
+        else{
+            para.style.display='block';
+        }
+
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+
+<body>
+    <div class="container">
+        this gives the idea of loops.
+    </div>
+    <script>
+        let numbers = ["one", "two", "three"];
+
+        // for loop in js
+        for (let index = 0; index < numbers.length; index++) {
+            console.log("this is number " + numbers[index]);
+        }
+
+        // for each loop in js
+        numbers.forEach(element => {
+            console.log("This is number"+ element);
+        });
+
+        //for of loop in js
+        for (element of numbers) {
+            console.log("THIS IS NUMBER "+element);
+        }
+
+        //for in loop in js
+        // for in loop is used to acsses the elements of objects
+        let student={
+            name: "trupti",
+            id:11,
+            subject:"maths",
+            marks:98,
+        }
+        for ( key in student) {
+            console.log(`The ${key} of student is ${student[key]}`);
+        }
+        
+        // while loop in js
+        let num=[4,5,3,2];
+        var i,j;
+        while (i<=num.length) {
+            console.log(`the element ${i} is ${num[i]}`);
+        }
+
+        //do-while loop in js
+        let array=[1,2,3,8,6];
+        do {
+          console.log(`The element ${i} of array is ${array[j]}`);
+        } while (j<=array.length);
+
+
+    </script>
+</body>
+
+</html>
